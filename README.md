@@ -15,7 +15,9 @@ Go (version 1.16 or higher)
 To install the project, run the following command:
 
 ```bash
-go get github.com/doldam0/ssh-sync
+git clone https://github.com/doldam0/ssh-sync.git
+cd ssh-sync
+go install
 ```
 
 ### Running
