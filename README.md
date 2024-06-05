@@ -35,8 +35,8 @@ This section explains how to use the project.
 ### Commands
 
 - `-n` (int): Check duration. This program checks the source directory every n seconds.
-- `--ignore-existing` (bool): Ignore existing files. This program does not transfer existing files if this flag is set.
-- `--count` (int): Check count. This program transfers files after checking n times. If the file size is updated, the check count is reset. This option is useful for transferring large files that are updated frequently.
+- `-ignore-existing` (bool): Ignore existing files. This program does not transfer existing files if this flag is set.
+- `-count` (int): Check count. This program transfers files after checking n times. If the file size is updated, the check count is reset. This option is useful for transferring large files that are updated frequently.
 - `-h` (bool): Show help.
 - `-v` (bool): Verbose mode. This program outputs debug messages if this flag is set.
 - `<src>` (string): Source directory.
